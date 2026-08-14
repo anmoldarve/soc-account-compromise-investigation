@@ -2,7 +2,7 @@
 
 Simulated enterprise SOC investigation — Tier 1 to Tier 3 analyst workflow, built and queried entirely in Azure Data Explorer using KQL. No pre-labeled dataset: every anomaly was found by baselining normal user behavior and querying for deviations, the same approach real UEBA/Sentinel tooling uses under the hood.
 
-**Author:** Yash Paghadal
+**Author:** Anmol Darve
 **Stack:** Azure Data Explorer, KQL (Kusto Query Language), Windows Security Event Log standard (4624/4625/4728/4663)
 **Dataset:** 932 simulated enterprise log events across 11 users, 7 business applications, 5 business days
 
